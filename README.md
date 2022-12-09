@@ -1,5 +1,7 @@
 # Multicast
 
+## Basic Server
+
 "Pseudo-Client" Output
 
 ```js
@@ -23,3 +25,7 @@
   }
 ]
 ```
+
+## Socket Discovery
+
+![Basic Socket Discovery](./data/exampleSocketDiscovery.png)

@@ -5,11 +5,13 @@ export interface ServerInfo {
   port: number;
   address: string;
   uuid?: string;
+  payload?: any;
 }
 
 export interface Broadcast {
   type: string;
   info: ServerInfo;
+  payload?: any;
 }
 
 export class Server {
@@ -59,6 +61,7 @@ export class Server {
           address: rinfo.address,
           port: rinfo.port,
           uuid: parsed?.info.uuid,
+          payload: parsed?.payload,
         })
       );
     });
@@ -67,7 +70,7 @@ export class Server {
   /**
    * Broadcast a UDP message.
    */
-  public broadcast() {
+  public broadcast(additionalInfo?: any) {
     if (!this._socket) throw new Error("Server is not listening.");
 
     this._socket.send(
@@ -75,6 +78,7 @@ export class Server {
         JSON.stringify({
           type: "discover",
           info: this._options,
+          payload: additionalInfo,
         })
       ),
       this._options.port,
