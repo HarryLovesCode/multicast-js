@@ -2,7 +2,10 @@
   "name": "multicast",
   "version": "0.0.1",
   "description": "A tool to discover other services running on a network.",
-  "main": "dist/src/server.js",
+  "main": "dist/examples/exampleServer.js",
+  "scripts": {
+    "start": "tsc && node dist/examples/exampleServer.js"
+  },
   "author": "Harry Gould",
   "license": "MIT",
   "devDependencies": {
