@@ -1,5 +1,12 @@
 # Multicast
 
+This is just about the tiniest library one could possibly write to discover & broadcast other services on your network in Node.js. I have provided a examples in the `/examples` directory to check out. 
+
+- Basic server / client discovery and logging of their IP addresses + port.
+- Server / client discovery and negotiating a websocket connection using Socket.io.
+
+This library is super light weight and not designed for production. It was mostly for a learning experience with DGRAM's.
+
 ## Basic Server
 
 "Pseudo-Client" Output
