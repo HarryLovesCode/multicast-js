@@ -1,24 +1,24 @@
 # Multicast
 
-"Pseudo-Client" Output (Same IP)
+"Pseudo-Client" Output
 ```
 [
   {
-    address: '172.20.188.31',
+    address: '10.0.0.74',
     port: 4123,
-    uuid: 'd1195593-7b19-47b0-94b0-98fd23cbab74'
+    uuid: '14665423-9007-423f-b2e1-69d28f4dc371'
   }
 ]
 ```
 
-"Pseudo-Server" Output (Same IP)
+"Pseudo-Server" Output
 
 ```
 [
   {
-    address: '172.20.188.31',
+    address: '10.0.0.151',
     port: 4123,
-    uuid: '14665423-9007-423f-b2e1-69d28f4dc371'
+    uuid: '96f7f287-995d-490c-937f-63c3d4070aee'
   }
 ]
 ```
