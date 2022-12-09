@@ -1,7 +1,8 @@
 # Multicast
 
 "Pseudo-Client" Output
-```
+
+```json
 [
   {
     address: '10.0.0.74',
@@ -13,7 +14,7 @@
 
 "Pseudo-Server" Output
 
-```
+```json
 [
   {
     address: '10.0.0.151',
