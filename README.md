@@ -2,7 +2,7 @@
 
 "Pseudo-Client" Output
 
-```json
+```js
 [
   {
     address: '10.0.0.74',
@@ -14,7 +14,7 @@
 
 "Pseudo-Server" Output
 
-```json
+```js
 [
   {
     address: '10.0.0.151',
